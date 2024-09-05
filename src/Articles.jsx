@@ -5,7 +5,7 @@ import how_to_grill from './images/img5.jpeg';
 import snack_travel from './images/img3_tif.jpeg';
 import brocolli from './images/img7.jpeg';
 import crunchwrap from './images/img6.jpeg';
-// import grilled_tmt from './images/img4.2.jpeg';
+import workout from './images/meal-prep-ideas-846x846 1.svg';
 
 const articles = [
   {
@@ -21,7 +21,7 @@ const articles = [
   {
     title: "Post-workout Recipes",
     description: "PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...",
-    imgSrc: "path-to-image",
+    imgSrc: workout,
   },
   {
     title: "How To Grill Corn",
@@ -65,7 +65,7 @@ const ArticleSlider = () => {
     <div className="w-screen pt-10 p-5 flex justify-center">
       <div className='w-[80%] flex flex-col items-center'>
         <div className='w-[100%]'>
-        <h2 className='text-3xl font-semibold text-start pb-4'>Latest Articles</h2>
+        <h2 className='text-3xl font-semibold text-start pb-4 text-[#0E2368]'>Latest Articles</h2>
         </div>
         <div className='w-[90%] flex flex-col items-center p-4 rounded-lg'>
         <div className="w-[100%] flex justify-between gap-3 ">
