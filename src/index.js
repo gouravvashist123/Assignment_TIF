@@ -11,7 +11,7 @@ root.render(
   <React.StrictMode>
     <Landing />
     <AboutUs />
-    {/* <ArticleSlider />
-    <Footer /> */}
+    <ArticleSlider />
+    <Footer />
   </React.StrictMode>
 );
