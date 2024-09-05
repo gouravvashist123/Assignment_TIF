@@ -1,0 +1,49 @@
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 40px auto 0;
+}
+
+.about-section .about-text {
+    width: 60%;
+}
+
+.about-section h2 {
+    font-size: 2.5em;
+    color: #1a2d77;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    color: #6c757d;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+
+.about-section .read-more-button {
+    background-color: #ff4747;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.about-section .read-more-button:hover {
+    background-color: #e33c3c;
+}
+
+/* About Us Image Styling */
+.about-section .about-image {
+    width: 35%;
+}
+
+.about-section .about-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
